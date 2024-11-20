@@ -1,0 +1,54 @@
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(120, 120, 120);
+}
+.playground{
+    height: 600px;
+    width: 1000px;
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.numberAndTimer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.number{
+    font-size: 38px;
+}
+.textbox{
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 15px;
+    font-size: 20px;
+    width: 400px;
+}
+.inputArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+.btnSendUserInput{
+    width: 100px;
+    height: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.progressbar{
+    height: 35px;
+}
